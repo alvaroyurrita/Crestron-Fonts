@@ -6,9 +6,9 @@ Similar to <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp"
 Follow the same guidelines in the link.  Just change any reference for fa to crneo, and fa- to crf-. You will be able to:
 
 * Add an icon into your project and make them any size any color:
-    * Make them rotate
-    * Spin Them
-    * Stack Them Together to make new ones!
+* Make them rotate
+* Spin Them
+* Stack Them Together to make new ones!
 
 Inspect the demo.html, and the sytle.css for extra styles to help you make the icons show here.
   
