@@ -25,17 +25,17 @@ On you initialized yarn/npm project, run
     
 This will install the fonts in the node_modules folder. The imortant folders are structure is:
 node_modules
-|---ay-crestron-fonts
+```|---ay-crestron-fonts
     |---css
     |   |---crestronfonts.css
     |   |---neo.css
     |---webfonts
-    |---demo.html
+    |---demo.html```
 
 The CSS folder contains the CSS styles to call the fonts in webfont by name instead of code, and important style for the stacking, animation, etc.
 The webonts, is where the core vector fonts in several formats are located
-demo.html can be run (by right clicking in visual studio and Opening in Live Serve (it must be installed) where all the fonts and examples can be seend.
+demo.html can be run (by right clicking in visual studio and Opening in <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (it must be installed) where all the fonts and examples can be seend.
 
 To install simple add these two lines to your index.html, or appropiate location in any of the js frameworks
-    <link rel="stylesheet" href="./node_modules/ay-crestron-fonts/css/crestronfonts.css">
-    <link rel="stylesheet" href="./node_modules/ay-crestron-fonts/css/neo.css">
+```  <link rel="stylesheet" href="./node_modules/ay-crestron-fonts/css/crestronfonts.css">
+     <link rel="stylesheet" href="./node_modules/ay-crestron-fonts/css/neo.css">```
