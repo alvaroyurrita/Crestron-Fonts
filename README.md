@@ -44,10 +44,10 @@ To install simple add these two lines to your index.html.
 
 In Angular you should put the links to those two folders under the styles property inside the angular.json properties:
 ```
-            "styles": [
-               "....",
-              "node_modules/ay-crestron-fonts/css/crestronfonts.css",
-              "node_modules/ay-crestron-fonts/css/neo.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
+   "styles": [
+      "....",
+     "node_modules/ay-crestron-fonts/css/crestronfonts.css",
+     "node_modules/ay-crestron-fonts/css/neo.css",
+     "node_modules/bootstrap/dist/css/bootstrap.min.css"
+   ],
 ```
