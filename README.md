@@ -12,7 +12,7 @@ Follow the same guidelines in the link.  Just change any reference for fa to crn
 
 Inspect the demo.html, and the sytle.css for extra styles to help you make the icons show here.
   
-## How to Use: ##
+## How to install: ##
 
 On you initialized yarn/npm project, run
 npm: 
