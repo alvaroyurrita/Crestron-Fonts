@@ -14,10 +14,14 @@ Inspect the demo.html, and the sytle.css for extra styles to help you make the i
   
 ## How to install: ##
 
-On you initialized yarn/npm project, run
-on npm: 
+On you initialized yarn/npm project, run 
+
+on npm:
+
 ``` npm install ay-crestron-fonts ```
+
 on yarn: 
+
 ``` yarn add ay-crestron-fonts ```
  
     
