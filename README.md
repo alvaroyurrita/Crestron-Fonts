@@ -2,7 +2,7 @@
 Vectorizing of several crestron Style Icons, and conversion in to Fonts for web development
     <div>
         <p>Similar to <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp">FontAwesome,</a> Creston Neo, creates fonts out of the Crestron Neo Style</p>
-        Follow the same guidelines in the link.  Just change any reference for fa to crf, and fa- to crneo-. You will be able to:  <br>
+        Follow the same guidelines in the link.  Just change any reference for fa to crneo, and fa- to crf-. You will be able to:  <br>
         <ul>
             <li>
                 Add an icon into your project and make them any size any color:

@@ -1,36 +1,34 @@
 {
-    "description": "Creston Neo Style Scalable Icons",
+    "description": "Creston Style Icons as Scalable Fonts",
     "keywords": [
-      "font",
-      "crestron",
-      "neo",
-      "icon",
-      "svg"
+        "font",
+        "crestron",
+        "neo",
+        "icon",
+        "svg"
     ],
-    "homepage": "https://fontawesome.com",
+    "homepage": "https://crestron.com",
     "bugs": {
-      "url": "http://github.com/FortAwesome/Font-Awesome/issues"
+        "url": "https://github.com/alvaroyurrita/Crestron-Fonts/issues"
     },
     "author": {
-      "name": "Alvaro Yurrita",
-      "email": "yurrita.alvaro@gmail.com"
+        "name": "Alvaro Yurrita",
+        "email": "yurrita.alvaro@gmail.com"
     },
-    "contributors": [
-    ],
+    "contributors": [],
     "repository": {
-      "type": "git",
-      "url": "https://github.com/FortAwesome/Font-Awesome"
+        "type": "git",
+        "url": "https://github.com/alvaroyurrita/Crestron-Fonts"
     },
     "engines": {
-      "node": ">=6"
+        "node": ">=6"
     },
-    "dependencies": {},
-    "version": "5.15.3",
-    "name": "@fortawesome/fontawesome-free",
-    "main": "js/fontawesome.js",
+    "version": "1.0.1",
+    "name": "ay-crestron-fonts",
+    "main": "js/crestronfonts.js",
     "style": "css/crestronfonts.css",
     "license": "(Font: Crestron, CSS: MIT License)",
     "scripts": {
-      "postinstall": "node attribution.js"
+        "postinstall": "node attribution.js"
     }
-  }
+}

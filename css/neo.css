@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Crestron Neo';
     src: url('../webfonts/cr-neo.eot?pkfne3');
-    src: url('../webfonts/cr-neoeot?pkfne3#iefix') format('embedded-opentype'),
+    src: url('../webfonts/cr-neo.eot?pkfne3#iefix') format('embedded-opentype'),
         url('../webfonts/cr-neo.ttf?pkfne3') format('truetype'),
         url('../webfonts/cr-neo.woff?pkfne3') format('woff'),
         url('../webfonts/cr-neo.svg?pkfne3#CrestronNeo') format('svg');
