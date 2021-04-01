@@ -6,9 +6,9 @@ Similar to <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp"
 Follow the same guidelines in the link.  Just change any reference for fa to crneo, and fa- to crf-. You will be able to:
 
 * Add an icon into your project and make them any size any color:
-    *Make them rotate
-    *Spin Them
-    *Stack Them Together to make new ones!
+    * Make them rotate
+    * Spin Them
+    * Stack Them Together to make new ones!
 
 Inspect the demo.html, and the sytle.css for extra styles to help you make the icons show here.
   
@@ -32,9 +32,9 @@ node_modules
     |---demo.html
 ```
 
-*The CSS folder contains the CSS styles to call the fonts in webfont by name instead of code, and important style for the stacking, animation, etc.
-*The webfonts, is where the core vector fonts in several formats are located.
-*demo.html can be run (by right clicking in visual studio and Opening in <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (it must be installed) where all the fonts and examples can be seend.
+* The CSS folder contains the CSS styles to call the fonts in webfont by name instead of code, and important style for the stacking, animation, etc.
+* The webfonts, is where the core vector fonts in several formats are located.
+* demo.html can be run (by right clicking in visual studio and Opening in <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (it must be installed) where all the fonts and examples can be seend.
 
 To install simple add these two lines to your index.html.
 ```  
