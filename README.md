@@ -15,10 +15,10 @@ Inspect the demo.html, and the sytle.css for extra styles to help you make the i
 ## How to install: ##
 
 On you initialized yarn/npm project, run
-npm: 
-```npm install ay-crestron-fonts```
-yarn: 
-```yarn add ay-crestron-fonts```
+on npm: 
+``` npm install ay-crestron-fonts ```
+on yarn: 
+``` yarn add ay-crestron-fonts ```
  
     
 This will install the fonts in the node_modules folder. The imortant folders are structure is:
