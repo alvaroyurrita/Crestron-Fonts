@@ -9,8 +9,6 @@ Follow the same guidelines in the link.  Just change any reference for fa to crn
 * Make them rotate
 * Spin Them
 * Stack Them Together to make new ones!
-
-Inspect the demo.html, and the sytle.css for extra styles to help you make the icons show here.
   
 ## How to install: ##
 
@@ -38,7 +36,7 @@ node_modules
 
 * The CSS folder contains the CSS styles to call the fonts in webfont by name instead of code, and important style for the stacking, animation, etc.
 * The webfonts, is where the core vector fonts in several formats are located.
-* demo.html can be run (by right clicking in visual studio and Opening in <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (it must be installed) where all the fonts and examples can be seend.
+* demo.html has examples of all the included glyphs, as well as style use.  Launch it by right clicking on it in visual studio and selecting <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Opening in Live Server</a>.
 
 To install simple add these two lines to your index.html.
 ```  
