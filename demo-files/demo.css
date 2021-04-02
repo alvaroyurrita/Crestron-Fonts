@@ -159,3 +159,37 @@ p {
   font-size: 14px;
 }
 
+.buttons {
+  display: flex;
+  align-items: center; 
+}
+
+.button {
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  height: 11vh;
+  width: 10vh;
+  border: dashed 1px gray;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: lightseagreen;
+}
+
+.button-icon {
+  font-size: 7.5vh;
+  grid-area: 1 / 1;
+}
+
+.button-text {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.5vh;
+  grid-area: 2 / 1;
+  text-align: center;
+}
+
