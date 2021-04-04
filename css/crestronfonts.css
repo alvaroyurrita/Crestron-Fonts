@@ -5,222 +5,221 @@
 /* FONT PATH
  * -------------------------- */
 
-
 .crneo {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 1;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
 }
 
-
 .crf-danger {
-    color: red;
+  color: red;
 }
 
 .crf-success {
-    color: green;
+  color: green;
 }
 
 .crf-disabled {
-    opacity: .2;
+  opacity: 0.2;
 }
 
 .crf-dot-mask::before {
-    background-image: radial-gradient(white 20%, rgba(0, 0, 0, 0) 20%);
-    height: 100%;
-    width: 100%;
+  background-image: radial-gradient(white 20%, rgba(0, 0, 0, 0) 20%);
+  height: 100%;
+  width: 100%;
 }
 
 .crf-diagonal-mask::before {
-    background-image: linear-gradient(48deg,
-            rgba(0, 0, 0, 0) 43%,
-            white 44%,
-            white 55%,
-            rgba(0, 0, 0, 0) 56%);
-    height: 100%;
-    width: 100%;
+  background-image: linear-gradient(
+    48deg,
+    rgba(0, 0, 0, 0) 43%,
+    white 44%,
+    white 55%,
+    rgba(0, 0, 0, 0) 56%
+  );
+  height: 100%;
+  width: 100%;
 }
 
 .crf-user-state {
-    transform: translate(30%, -5%);
+  transform: translate(30%, -5%);
 }
 
-
 .crf-volume-state {
-    transform: translate(20%, 0);
+  transform: translate(20%, 0);
 }
 
 .crf-volume-lshift {
-    transform: translate(-20%, 0);
+  transform: translate(-20%, 0);
 }
 
 .crf-dnd-state {
-    transform: translate(10%, -8%);
+  transform: translate(10%, -8%);
 }
 
 .crf-mic-state {
-    transform: translate(0%, -7%);
+  transform: translate(0%, -7%);
 }
 
 /* makes the font 33% larger relative to the icon container */
 .crf-lg {
-    font-size: 1.33333333em;
-    line-height: .75em;
-    vertical-align: -15%
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
 }
 
 .crf-2x {
-    font-size: 2em
+  font-size: 2em;
 }
 
 .crf-3x {
-    font-size: 3em
+  font-size: 3em;
 }
 
 .crf-4x {
-    font-size: 4em
+  font-size: 4em;
 }
 
 .crf-5x {
-    font-size: 5em
+  font-size: 5em;
 }
 
 .crf-fw {
-    width: 1.28571429em;
-    text-align: center
+  width: 1.28571429em;
+  text-align: center;
 }
 
 .crf-ul {
-    padding-left: 0;
-    margin-left: 2.14285714em;
-    list-style-type: none
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
 }
 
-.crf-ul>li {
-    position: relative
+.crf-ul > li {
+  position: relative;
 }
 
 .crf-li {
-    position: absolute;
-    left: -2.14285714em;
-    width: 2.14285714em;
-    top: .14285714em;
-    text-align: center
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
 }
 
 .crf-li.crf-lg {
-    left: -1.85714286em
+  left: -1.85714286em;
 }
 
 .crf-border {
-    padding: .2em .25em .15em;
-    border: solid .08em #eee;
-    border-radius: .1em
+  padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
 }
 
 .crf-pull-left {
-    float: left
+  float: left;
 }
 
 .crf-pull-right {
-    float: right
+  float: right;
 }
 
 .crneo.crf-pull-left {
-    margin-right: .3em
+  margin-right: 0.3em;
 }
 
 .crneo.crf-pull-right {
-    margin-left: .3em
+  margin-left: 0.3em;
 }
 
 .pull-right {
-    float: right
+  float: right;
 }
 
 .pull-left {
-    float: left
+  float: left;
 }
 
 .crneo.pull-left {
-    margin-right: .3em
+  margin-right: 0.3em;
 }
 
 .crneo.pull-right {
-    margin-left: .3em
+  margin-left: 0.3em;
 }
 
 .crf-spin {
-    -webkit-animation: fa-spin 2s infinite linear;
-    animation: fa-spin 2s infinite linear
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 
 .crf-pulse {
-    -webkit-animation: fa-spin 1s infinite steps(8);
-    animation: fa-spin 1s infinite steps(8)
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
 }
 
 @-webkit-keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
 }
 
 @keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
 }
 
 .crf-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg)
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .crf-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg)
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .crf-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg)
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
 }
 
 .crf-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-    -webkit-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1)
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
 }
 
 .crf-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-    -webkit-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1)
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
 }
 
 :root .crf-rotate-90,
@@ -228,856 +227,864 @@
 :root .crf-rotate-270,
 :root .crf-flip-horizontal,
 :root .crf-flip-vertical {
-    filter: none
+  filter: none;
 }
 
 .crf-inline-stack {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    line-height: 1;
-    vertical-align: middle;
-    position: relative;
-    top: -.18em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  position: relative;
+  top: -0.18em;
 }
 
 .crf-inline-stack-1x,
 .crf-inline-stack-2x {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .crf-grid-stack {
-    display: grid;
-    place-content: center;
+  display: grid;
+  place-content: center;
 }
 
 .crf-grid-stack-1x,
 .crf-grid-stack-2x {
-    grid-area: 1/1;
+  grid-area: 1/1;
 }
 
 .crf-inline-stack-1x,
 .crf-grid-stack-1x {
-    line-height: inherit
+  line-height: inherit;
 }
 
 .crf-inline-stack-2x,
 .crf-grid-stack-2x {
-    font-size: 200%
+  font-size: 200%;
 }
 
 .crf-inverse {
-    color: #fff
+  color: #fff;
 }
 
 .crf-address-book:before {
-    content: "\e900";
+  content: "\e900";
 }
 
 .crf-airmedia:before {
-    content: "\e901";
+  content: "\e901";
 }
 
 .crf-alarm:before {
-    content: "\e902";
+  content: "\e902";
 }
 
 .crf-alert:before {
-    content: "\e903";
+  content: "\e903";
 }
 
 .crf-android:before {
-    content: "\e904";
+  content: "\e904";
 }
 
 .crf-apple:before {
-    content: "\e905";
+  content: "\e905";
 }
 
 .crf-asterisk:before {
-    content: "\e906";
+  content: "\e906";
 }
 
 .crf-audio-note:before {
-    content: "\e907";
+  content: "\e907";
 }
 
 .crf-back-slash:before {
-    content: "\e908";
+  content: "\e908";
 }
 
 .crf-ban:before {
-    content: "\e909";
+  content: "\e909";
 }
 
 .crf-battery:before {
-    content: "\e90a";
+  content: "\e90a";
 }
 
 .crf-battery-full:before {
-    content: "\e90b";
+  content: "\e90b";
 }
 
 .crf-battery-low:before {
-    content: "\e90c";
+  content: "\e90c";
 }
 
 .crf-blinds:before {
-    content: "\e90d";
+  content: "\e90d";
 }
 
 .crf-blinds-closed:before {
-    content: "\e90e";
+  content: "\e90e";
 }
 
 .crf-bluetooth:before {
-    content: "\e90f";
+  content: "\e90f";
 }
 
 .crf-blu-ray:before {
-    content: "\e910";
+  content: "\e910";
 }
 
 .crf-bolt:before {
-    content: "\e911";
+  content: "\e911";
 }
 
 .crf-brightness:before {
-    content: "\e912";
+  content: "\e912";
 }
 
 .crf-brightness-max:before {
-    content: "\e913";
+  content: "\e913";
 }
 
 .crf-brightness-medium:before {
-    content: "\e914";
+  content: "\e914";
 }
 
 .crf-broken-route-bottom:before {
-    content: "\e915";
+  content: "\e915";
 }
 
 .crf-broken-route-top:before {
-    content: "\e916";
+  content: "\e916";
 }
 
 .crf-brush:before {
-    content: "\e917";
+  content: "\e917";
 }
 
 .crf-calendar:before {
-    content: "\e918";
+  content: "\e918";
 }
 
 .crf-camera:before {
-    content: "\e919";
+  content: "\e919";
 }
 
 .crf-cart:before {
-    content: "\e91a";
+  content: "\e91a";
 }
 
 .crf-cd:before {
-    content: "\e91b";
+  content: "\e91b";
 }
 
 .crf-charge:before {
-    content: "\e91c";
+  content: "\e91c";
 }
 
 .crf-check:before {
-    content: "\e91d";
+  content: "\e91d";
 }
 
 .crf-checkbox-checked:before {
-    content: "\e91e";
+  content: "\e91e";
 }
 
 .crf-checkbox-off:before {
-    content: "\e91f";
+  content: "\e91f";
 }
 
 .crf-chrome:before {
-    content: "\e920";
+  content: "\e920";
 }
 
 .crf-circle:before {
-    content: "\e921";
+  content: "\e921";
 }
 
 .crf-climate:before {
-    content: "\e922";
+  content: "\e922";
 }
 
 .crf-climate-scheduler:before {
-    content: "\e923";
+  content: "\e923";
 }
 
 .crf-clock:before {
-    content: "\e924";
+  content: "\e924";
 }
 
 .crf-comment:before {
-    content: "\e925";
+  content: "\e925";
 }
 
 .crf-comment-check:before {
-    content: "\e926";
+  content: "\e926";
 }
 
 .crf-connector:before {
-    content: "\e927";
+  content: "\e927";
 }
 
 .crf-connector-plate:before {
-    content: "\e928";
+  content: "\e928";
 }
 
 .crf-contrast:before {
-    content: "\e929";
+  content: "\e929";
 }
 
 .crf-crestron:before {
-    content: "\e92a";
+  content: "\e92a";
 }
 
 .crf-dashboard:before {
-    content: "\e92b";
+  content: "\e92b";
 }
 
 .crf-delete:before {
-    content: "\e92c";
+  content: "\e92c";
 }
 
 .crf-delete-alt:before {
-    content: "\e92d";
+  content: "\e92d";
 }
 
 .crf-disk:before {
-    content: "\e92e";
+  content: "\e92e";
 }
 
 .crf-door:before {
-    content: "\e92f";
+  content: "\e92f";
 }
 
 .crf-down:before {
-    content: "\e930";
+  content: "\e930";
 }
 
 .crf-down-alt:before {
-    content: "\e931";
+  content: "\e931";
 }
 
 .crf-download:before {
-    content: "\e932";
+  content: "\e932";
 }
 
 .crf-download-cloud:before {
-    content: "\e933";
+  content: "\e933";
 }
 
 .crf-down-right:before {
-    content: "\e934";
+  content: "\e934";
 }
 
 .crf-drapes:before {
-    content: "\e935";
+  content: "\e935";
 }
 
 .crf-drapes-closed:before {
-    content: "\e936";
+  content: "\e936";
 }
 
 .crf-drapes-open:before {
-    content: "\e937";
+  content: "\e937";
 }
 
 .crf-dvd:before {
-    content: "\e938";
+  content: "\e938";
 }
 
 .crf-eject:before {
-    content: "\e939";
+  content: "\e939";
 }
 
 .crf-enter:before {
-    content: "\e93a";
+  content: "\e93a";
 }
 
 .crf-eraser:before {
-    content: "\e93b";
+  content: "\e93b";
 }
 
 .crf-eye:before {
-    content: "\e93c";
+  content: "\e93c";
 }
 
 .crf-film:before {
-    content: "\e93d";
+  content: "\e93d";
 }
 
 .crf-fire:before {
-    content: "\e93e";
+  content: "\e93e";
 }
 
 .crf-fireplace:before {
-    content: "\e93f";
+  content: "\e93f";
 }
 
 .crf-folder:before {
-    content: "\e940";
+  content: "\e940";
 }
 
 .crf-fwd:before {
-    content: "\e941";
+  content: "\e941";
 }
 
 .crf-game:before {
-    content: "\e942";
+  content: "\e942";
 }
 
 .crf-garage:before {
-    content: "\e943";
+  content: "\e943";
 }
 
 .crf-gear:before {
-    content: "\e944";
+  content: "\e944";
 }
 
 .crf-globe:before {
-    content: "\e945";
+  content: "\e945";
 }
 
 .crf-graph:before {
-    content: "\e946";
+  content: "\e946";
 }
 
 .crf-graph-alt:before {
-    content: "\e947";
+  content: "\e947";
 }
 
 .crf-grid:before {
-    content: "\e948";
+  content: "\e948";
 }
 
 .crf-group:before {
-    content: "\e949";
+  content: "\e949";
 }
 
 .crf-guide:before {
-    content: "\e94a";
+  content: "\e94a";
 }
 
 .crf-guide-list:before {
-    content: "\e94b";
+  content: "\e94b";
 }
 
 .crf-hd:before {
-    content: "\e94c";
+  content: "\e94c";
 }
 
 .crf-heart:before {
-    content: "\e94d";
+  content: "\e94d";
 }
 
 .crf-help:before {
-    content: "\e94e";
+  content: "\e94e";
 }
 
 .crf-home:before {
-    content: "\e94f";
+  content: "\e94f";
 }
 
 .crf-hot-tub:before {
-    content: "\e950";
+  content: "\e950";
 }
 
 .crf-image:before {
-    content: "\e951";
+  content: "\e951";
 }
 
 .crf-info:before {
-    content: "\e952";
+  content: "\e952";
 }
 
 .crf-ipad:before {
-    content: "\e953";
+  content: "\e953";
 }
 
 .crf-iphone-ipod-touch:before {
-    content: "\e954";
+  content: "\e954";
 }
 
 .crf-ipod:before {
-    content: "\e955";
+  content: "\e955";
 }
 
 .crf-keyboard:before {
-    content: "\e956";
+  content: "\e956";
 }
 
 .crf-keypad:before {
-    content: "\e957";
+  content: "\e957";
 }
 
 .crf-laptop:before {
-    content: "\e958";
+  content: "\e958";
 }
 
 .crf-lastfm:before {
-    content: "\e959";
+  content: "\e959";
 }
 
 .crf-left:before {
-    content: "\e95a";
+  content: "\e95a";
 }
 
 .crf-left-alt:before {
-    content: "\e95b";
+  content: "\e95b";
 }
 
 .crf-lights:before {
-    content: "\e95c";
+  content: "\e95c";
 }
 
 .crf-lights-filament-short:before {
-    content: "\e95d";
+  content: "\e95d";
 }
 
 .crf-lights-filament-tall:before {
-    content: "\e95e";
+  content: "\e95e";
 }
 
 .crf-list:before {
-    content: "\e95f";
+  content: "\e95f";
 }
 
 .crf-live:before {
-    content: "\e960";
+  content: "\e960";
 }
 
 .crf-location:before {
-    content: "\e961";
+  content: "\e961";
 }
 
 .crf-lync:before {
-    content: "\e962";
+  content: "\e962";
 }
 
 .crf-magnifying-glass:before {
-    content: "\e963";
+  content: "\e963";
 }
 
 .crf-media-server:before {
-    content: "\e964";
+  content: "\e964";
 }
 
 .crf-mic:before {
-    content: "\e965";
+  content: "\e965";
 }
 
 .crf-minus:before {
-    content: "\e966";
+  content: "\e966";
 }
 
 .crf-more:before {
-    content: "\e967";
+  content: "\e967";
 }
 
 .crf-mouse:before {
-    content: "\e968";
+  content: "\e968";
 }
 
 .crf-network-wifi-1:before {
-    content: "\e969";
+  content: "\e969";
 }
 
 .crf-network-wifi-2:before {
-    content: "\e96a";
+  content: "\e96a";
 }
 
 .crf-network-wifi-3:before {
-    content: "\e96b";
+  content: "\e96b";
 }
 
 .crf-next:before {
-    content: "\e96c";
+  content: "\e96c";
 }
 
 .crf-next-alt:before {
-    content: "\e96d";
+  content: "\e96d";
 }
 
 .crf-next-page:before {
-    content: "\e96e";
+  content: "\e96e";
 }
 
 .crf-one:before {
-    content: "\e96f";
+  content: "\e96f";
 }
 
 .crf-options-off:before {
-    content: "\e970";
+  content: "\e970";
 }
 
 .crf-options-on:before {
-    content: "\e971";
+  content: "\e971";
 }
 
 .crf-outlet:before {
-    content: "\e972";
+  content: "\e972";
 }
 
 .crf-padlock-closed:before {
-    content: "\e973";
+  content: "\e973";
 }
 
 .crf-padlock-open:before {
-    content: "\e974";
+  content: "\e974";
 }
 
 .crf-pandora:before {
-    content: "\e975";
+  content: "\e975";
 }
 
 .crf-pause:before {
-    content: "\e976";
+  content: "\e976";
 }
 
 .crf-pen:before {
-    content: "\e977";
+  content: "\e977";
 }
 
 .crf-phone:before {
-    content: "\e978";
+  content: "\e978";
 }
 
 .crf-phone-down:before {
-    content: "\e979";
+  content: "\e979";
 }
 
 .crf-play:before {
-    content: "\e97a";
+  content: "\e97a";
 }
 
 .crf-play-all:before {
-    content: "\e97b";
+  content: "\e97b";
 }
 
 .crf-play-alt:before {
-    content: "\e97c";
+  content: "\e97c";
 }
 
 .crf-play-library:before {
-    content: "\e97d";
+  content: "\e97d";
 }
 
 .crf-playlist:before {
-    content: "\e97e";
+  content: "\e97e";
 }
 
 .crf-play-list:before {
-    content: "\e97f";
+  content: "\e97f";
 }
 
 .crf-play-pause:before {
-    content: "\e980";
+  content: "\e980";
 }
 
 .crf-plus:before {
-    content: "\e981";
+  content: "\e981";
 }
 
 .crf-pool:before {
-    content: "\e982";
+  content: "\e982";
 }
 
 .crf-power:before {
-    content: "\e983";
+  content: "\e983";
 }
 
 .crf-previous:before {
-    content: "\e984";
+  content: "\e984";
 }
 
 .crf-previous-alt:before {
-    content: "\e985";
+  content: "\e985";
 }
 
 .crf-prev-page:before {
-    content: "\e986";
+  content: "\e986";
 }
 
 .crf-projector:before {
-    content: "\e987";
+  content: "\e987";
 }
 
 .crf-radio-signal:before {
-    content: "\e988";
+  content: "\e988";
 }
 
 .crf-rec:before {
-    content: "\e989";
+  content: "\e989";
 }
 
 .crf-repeat:before {
-    content: "\e98a";
+  content: "\e98a";
 }
 
 .crf-replay:before {
-    content: "\e98b";
+  content: "\e98b";
 }
 
 .crf-rew:before {
-    content: "\e98c";
+  content: "\e98c";
 }
 
 .crf-rhapsody:before {
-    content: "\e98d";
+  content: "\e98d";
 }
 
 .crf-right:before {
-    content: "\e98e";
+  content: "\e98e";
 }
 
 .crf-right-alt:before {
-    content: "\e98f";
+  content: "\e98f";
 }
 
 .crf-roku:before {
-    content: "\e990";
+  content: "\e990";
 }
 
 .crf-rss:before {
-    content: "\e991";
+  content: "\e991";
 }
 
 .crf-satellite:before {
-    content: "\e992";
+  content: "\e992";
 }
 
 .crf-scene:before {
-    content: "\e993";
+  content: "\e993";
 }
 
 .crf-settings:before {
-    content: "\e994";
+  content: "\e994";
 }
 
 .crf-settings-alt:before {
-    content: "\e995";
+  content: "\e995";
 }
 
 .crf-shades:before {
-    content: "\e996";
+  content: "\e996";
 }
 
 .crf-shades-closed:before {
-    content: "\e997";
+  content: "\e997";
 }
 
 .crf-share:before {
-    content: "\e998";
+  content: "\e998";
 }
 
 .crf-shield:before {
-    content: "\e999";
+  content: "\e999";
 }
 
 .crf-shuffle:before {
-    content: "\e99a";
+  content: "\e99a";
 }
 
 .crf-sirius:before {
-    content: "\e99b";
+  content: "\e99b";
 }
 
 .crf-siriusxm:before {
-    content: "\e99c";
+  content: "\e99c";
 }
 
 .crf-skip-ahead:before {
-    content: "\e99d";
+  content: "\e99d";
 }
 
 .crf-skip-back:before {
-    content: "\e99e";
+  content: "\e99e";
 }
 
 .crf-sleep:before {
-    content: "\e99f";
+  content: "\e99f";
 }
 
 .crf-slow:before {
-    content: "\e9a0";
+  content: "\e9a0";
 }
 
 .crf-snow-flake:before {
-    content: "\e9a1";
+  content: "\e9a1";
 }
 
 .crf-song-add:before {
-    content: "\e9a2";
+  content: "\e9a2";
 }
 
 .crf-sonos:before {
-    content: "\e9a3";
+  content: "\e9a3";
 }
 
 .crf-source-full:before {
-    content: "\e9a4";
+  content: "\e9a4";
 }
 
 .crf-speaker:before {
-    content: "\e9a5";
-    transform: scale(3);
+  content: "\e9a5";
+  transform: scale(3);
 }
 
 .crf-spotify:before {
-    content: "\e9a6";
+  content: "\e9a6";
 }
 
 .crf-star:before {
-    content: "\e9a7";
+  content: "\e9a7";
 }
 
 .crf-stop:before {
-    content: "\e9a8";
+  content: "\e9a8";
 }
 
 .crf-stopwatch:before {
-    content: "\e9a9";
+  content: "\e9a9";
 }
 
 .crf-sun:before {
-    content: "\e9aa";
+  content: "\e9aa";
 }
 
 .crf-system:before {
-    content: "\e9ab";
+  content: "\e9ab";
 }
 
 .crf-theater:before {
-    content: "\e9ac";
+  content: "\e9ac";
 }
 
 .crf-thumb-down:before {
-    content: "\e9ad";
+  content: "\e9ad";
 }
 
 .crf-thumb-up:before {
-    content: "\e9ae";
+  content: "\e9ae";
 }
 
 .crf-times:before {
-    content: "\e9af";
+  content: "\e9af";
 }
 
 .crf-trashcan:before {
-    content: "\e9b0";
+  content: "\e9b0";
 }
 
 .crf-triangle:before {
-    content: "\e9b1";
+  content: "\e9b1";
 }
 
 .crf-tv:before {
-    content: "\e9b2";
+  content: "\e9b2";
 }
 
 .crf-ungroup:before {
-    content: "\e9b3";
+  content: "\e9b3";
 }
 
 .crf-up:before {
-    content: "\e9b4";
+  content: "\e9b4";
 }
 
 .crf-up-alt:before {
-    content: "\e9b5";
+  content: "\e9b5";
 }
 
 .crf-upload:before {
-    content: "\e9b6";
+  content: "\e9b6";
 }
 
 .crf-usb:before {
-    content: "\e9b7";
+  content: "\e9b7";
 }
 
 .crf-usb-alt:before {
-    content: "\e9b8";
+  content: "\e9b8";
 }
 
 .crf-user:before {
-    content: "\e9b9";
+  content: "\e9b9";
 }
 
 .crf-users:before {
-    content: "\e9ba";
+  content: "\e9ba";
 }
 
 .crf-video-input:before {
-    content: "\e9bb";
+  content: "\e9bb";
 }
 
 .crf-video-output:before {
-    content: "\e9bc";
+  content: "\e9bc";
 }
 
 .crf-video-screen:before {
-    content: "\e9bd";
+  content: "\e9bd";
 }
 
 .crf-weather:before {
-    content: "\e9be";
+  content: "\e9be";
 }
 
 .crf-wi-fi:before {
-    content: "\e9bf";
+  content: "\e9bf";
 }
 
 .crf-windows:before {
-    content: "\e9c0";
+  content: "\e9c0";
 }
 
 .crf-wireless-device:before {
-    content: "\e9c1";
+  content: "\e9c1";
 }
 
 .crf-wrench:before {
-    content: "\e9c2";
+  content: "\e9c2";
 }
 
 .crf-xm:before {
-    content: "\e9c3";
+  content: "\e9c3";
 }
 
 .crf-check-small:before {
-    content: "\e9c4";
+  content: "\e9c4";
 }
 
 .crf-circle-closed:before {
-    content: "\e9c5";
+  content: "\e9c5";
 }
 
 .crf-minus-small:before {
-    content: "\e9c6";
+  content: "\e9c6";
 }
 
 .crf-play-small:before {
-    content: "\e9c7";
+  content: "\e9c7";
 }
 
 .crf-play-small-closed:before {
-    content: "\e9c8";
+  content: "\e9c8";
 }
 
 .crf-plus-small:before {
-    content: "\e9c9";
+  content: "\e9c9";
+}
+
+.crf-shuffle-hollow:before {
+  content: "\e9ca";
+}
+
+.crf-source-slashed:before {
+  content: "\e9cb";
 }
