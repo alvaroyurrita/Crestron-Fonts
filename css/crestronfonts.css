@@ -65,6 +65,10 @@
   transform: translate(0%, -7%);
 }
 
+.crf-location-state {
+  transform: translate(0%, -7.5%) scale(-.85);
+}
+
 /* makes the font 33% larger relative to the icon container */
 .crf-lg {
   font-size: 1.33333333em;
