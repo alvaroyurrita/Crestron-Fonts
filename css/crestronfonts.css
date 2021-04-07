@@ -62,7 +62,7 @@
 }
 
 .crf-mic-state {
-  transform: translate(0%, -11%);
+  transform: translate(0%, -7%);
 }
 
 .crf-location-state {
@@ -1073,6 +1073,18 @@
   content: "\e9cb";
 }
 
+.crf-network-wifi-0::before {
+  content: "\e9cc";
+}
+
+.crf-network-wifi-4::before {
+  content: "\e9cd";
+}
+
+.crf-network-wifi-5::before {
+  content: "\e9ce";
+}
+
 /* Premade stacked icons */
 
 /* battery-charging */
@@ -1080,7 +1092,7 @@
   content: "\e90a";
   grid-area: 1/1;
 }
-.crf-battery-charging:after {
+.crf-battery-charging::after {
   content: "\e91c";
   grid-area: 1/1;
 }
@@ -1094,7 +1106,7 @@
   content: "\e90a";
   grid-area: 1/1;
 }
-.crf-battery-full:after {
+.crf-battery-full::after {
   content: "\e90b";
   grid-area: 1/1;
   color:green;
@@ -1120,7 +1132,7 @@
   content: "\e90a";
   grid-area: 1/1;
 }
-.crf-battery-low:after {
+.crf-battery-low::after {
   content: "\e90c";
   grid-area: 1/1;
   color: red;
@@ -1135,7 +1147,7 @@
   content: "\e916 ";
   grid-area: 1/1;
 }
-.crf-broken-route:after {
+.crf-broken-route::after {
   content: "\e915";
   grid-area: 1/1;
   color: red;
@@ -1150,7 +1162,7 @@
   content: "\e978 ";
   grid-area: 1/1;
 }
-.crf-dnd:after {
+.crf-dnd::after {
   content: "\e9af";
   grid-area: 1/1;
   transform: translate(10%, -8%);
@@ -1165,7 +1177,7 @@
   content: "\e978 ";
   grid-area: 1/1;
 }
-.crf-dnd-on:after {
+.crf-dnd-on::after {
   content: "\e9af";
   grid-area: 1/1;
   transform: translate(10%, -8%);
@@ -1181,7 +1193,7 @@
   content: "\e95c ";
   grid-area: 1/1;
 }
-.crf-lights:after {
+.crf-lights::after {
   content: "\e95e";
   grid-area: 1/1;
 }
@@ -1195,7 +1207,7 @@
   content: "\e95c ";
   grid-area: 1/1;
 }
-.crf-lights-off:after {
+.crf-lights-off::after {
   content: "\e95d";
   grid-area: 1/1;
   color: red;
@@ -1210,7 +1222,7 @@
   content: "\e961 ";
   grid-area: 1/1;
 }
-.crf-location:after {
+.crf-location::after {
   content: "\e921";
   grid-area: 1/1;
   transform: translate(0%, -7.5%) scale(-.85);
@@ -1225,7 +1237,7 @@
   content: "\e961 ";
   grid-area: 1/1;
 }
-.crf-location-minus:after {
+.crf-location-minus::after {
   content: "\e9c6";
   grid-area: 1/1;
   transform: translate(0%, -7.5%) scale(-.85);
@@ -1240,7 +1252,7 @@
   content: "\e961 ";
   grid-area: 1/1;
 }
-.crf-location-plus:after {
+.crf-location-plus::after {
   content: "\e9c9";
   grid-area: 1/1;
   transform: translate(0%, -7.5%) scale(-.85);
@@ -1255,7 +1267,7 @@
   content: "\e965 ";
   grid-area: 1/1;
 }
-.crf-mic-mute:after {
+.crf-mic-mute::after {
   content: "\e9af";
   grid-area: 1/1;
   transform: translate(0%, -11%);
@@ -1270,7 +1282,7 @@
   content: "\e965";
   grid-area: 1/1;
 }
-.crf-mic-muted:after {
+.crf-mic-muted::after {
   content: "\e9af";
   grid-area: 1/1;
   color: red;
@@ -1282,16 +1294,12 @@
 }
 
 /* network-wifi-low */
-.crf-network-wifi-low::marker {
-  content: "\e969";
+.crf-network-wifi-low::before {
+  content:  "\e969";
   grid-area: 1/1;
 }
-.crf-network-wifi-low:::before {
-  content:  "\e96a";
-  grid-area: 1/1;
-}
-.crf-network-wifi-low:after {
-  content: "\e96b";
+.crf-network-wifi-low::after {
+  content: "\e9ce";
   grid-area: 1/1;
   opacity: 0.2;
 }
@@ -1302,7 +1310,7 @@
 
 /* network-wifi-max */
 .crf-network-wifi-max::before {
-  content: "\e969" "\e96a" "\e96b";
+  content: "\e9cc";
   grid-area: 1/1;
 }
 .crf-network-wifi-max {
@@ -1312,11 +1320,11 @@
 
 /* network-wifi-med */
 .crf-network-wifi-med::before {
-  content: "\e9cb";
+  content: "\e9cd";
   grid-area: 1/1;
 }
-.crf-network-wifi-med:after {
-  content: "\e908" "\e96a" "\e96b";
+.crf-network-wifi-med::after {
+  content: "\e96b";
   grid-area: 1/1;
   opacity: 0.2;
 }
@@ -1327,7 +1335,7 @@
 
 /* network-wifi-off */
 .crf-network-wifi-off::before {
-  content:  "\e908" "\e96a" "\e96b";
+  content:  "\e9cc";
   opacity: 0.2;
   grid-area: 1/1;
 }
@@ -1341,7 +1349,7 @@
   content: "\e98a ";
   grid-area: 1/1;
 }
-.crf-repeat-item:after {
+.crf-repeat-item::after {
   content: "\e96f";
   grid-area: 1/1;
 }
@@ -1355,7 +1363,7 @@
   content: "\e98a ";
   grid-area: 1/1;
 }
-.crf-repeat-off:after {
+.crf-repeat-off::after {
   content: "\e9af";
   grid-area: 1/1;
   color: red;
@@ -1366,27 +1374,28 @@
 }
 
 /* shuffle-item */
-.crf-repeat-off::before {
-  content: "\e99a ";
+.crf-shuffle-item::before {
+  content: "\e9ca";
   grid-area: 1/1;
 }
-.crf-repeat-off:after {
+.crf-shuffle-item::after {
   content: "\e96f";
   grid-area: 1/1;
 }
-.crf-repeat-off {
+.crf-shuffle-item {
   display: inline-grid;
   place-content: center;
 }
 
 /* shuffle-off */
 .crf-shuffle-off::before {
-  content: "\e99a ";
+  content: "\e9ca ";
   grid-area: 1/1;
 }
-.crf-shuffle-off:after {
+.crf-shuffle-off::after {
   content: "\e9af";
   grid-area: 1/1;
+  color: red;
 }
 .crf-shuffle-off {
   display: inline-grid;
@@ -1398,7 +1407,7 @@
   content: "\e9cb ";
   grid-area: 1/1;
 }
-.crf-stop-source:after {
+.crf-stop-source::after {
   content: "\e908";
   grid-area: 1/1;
   color: red;
@@ -1413,7 +1422,7 @@
   content: "\e9b9 ";
   grid-area: 1/1;
 }
-.crf-user-bookmark:after {
+.crf-user-bookmark::after {
   content: "\e9c9";
   grid-area: 1/1;
   transform: translate(30%, -5%);
@@ -1428,7 +1437,7 @@
   content: "\e9b9 ";
   grid-area: 1/1;
 }
-.crf-user-check:after {
+.crf-user-check::after {
   content: "\e9c4";
   grid-area: 1/1;
   transform: translate(30%, -5%);
@@ -1443,7 +1452,7 @@
   content: "\e9b9 ";
   grid-area: 1/1;
 }
-.crf-user-minus:after {
+.crf-user-minus::after {
   content: "\e9c6";
   grid-area: 1/1;
   transform: translate(30%, -5%);
@@ -1458,7 +1467,7 @@
   content: "\e9bd ";
   grid-area: 1/1;
 }
-.crf-video-screen:after {
+.crf-video-screen::after {
   content: "\e9c7";
   grid-area: 1/1;
 }
@@ -1469,10 +1478,10 @@
 
 /* video-screen-alt */
 .crf-video-screen-alt::before {
-  content: "\e9bd ";
+  content: "\e9b2 ";
   grid-area: 1/1;
 }
-.crf-video-screen-alt:after {
+.crf-video-screen-alt::after {
   content: "\e9c8";
   grid-area: 1/1;
 }
@@ -1487,8 +1496,8 @@
   transform: translate(-20%, 0);
   grid-area: 1/1;
 }
-.crf-volume-hi:after {
-  content: "\e9c6";
+.crf-volume-hi::after {
+  content: "\e9c9";
   grid-area: 1/1;
   transform: translate(20%, 0);
 }
@@ -1503,7 +1512,7 @@
   grid-area: 1/1;
   transform: translate(-20%, 0);
 }
-.crf-volume-lo:after {
+.crf-volume-lo::after {
   content: "\e9c6";
   grid-area: 1/1;
   transform: translate(20%, 0);
@@ -1513,17 +1522,18 @@
   place-content: center;
 }
 
-/* volume-muted */
-.crf-volume-muted::before {
+/* volume-mute */
+.crf-volume-mute::before {
   content: "\e9a5 ";
   grid-area: 1/1;
+  transform: translate(-20%, 0);
 }
-.crf-volume-muted:after {
+.crf-volume-mute::after {
   content: "\e9af";
   grid-area: 1/1;
   transform: translate(20%, 0);
 }
-.crf-volume-muted {
+.crf-volume-mute {
   display: inline-grid;
   place-content: center;
 }
@@ -1532,8 +1542,9 @@
 .crf-volume-muted::before {
   content: "\e9a5 ";
   grid-area: 1/1;
+  transform: translate(-20%, 0);
 }
-.crf-volume-muted:after {
+.crf-volume-muted::after {
   content: "\e9af";
   grid-area: 1/1;
   color: red;

@@ -1,4 +1,5 @@
 # Crestron-Fonts
+
 Vectorizing of several crestron Style Icons, and conversion in to Fonts for web development
 
 Similar to <a href="https://www.w3schools.com/icons/fontawesome_icons_intro.asp">FontAwesome,</a> Creston Neo, creates fonts out of the Crestron Neo Style
@@ -53,3 +54,6 @@ In Angular you should put the links to those two folders under the styles proper
      "node_modules/bootstrap/dist/css/bootstrap.min.css"
    ],
 ```
+## Version 2.0
+New composite fonts created:
+A set of premade composite fonts were added to complete the Themes.  This composite fonts are created out of two glyphs, but they can be addressed as if they were one.  No need to stack them together on your HTML code.  
